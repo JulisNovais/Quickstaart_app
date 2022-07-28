@@ -1,4 +1,55 @@
-* {
-    background-color: black;
-    color: white
+html {
+  font-size: 62.5%;
+}
+body {
+  background-color: black;
+  color: white;
+  font-size: 1.6rem;
+  font-family: "Poppins", sans-serif;
+}
+
+.containerPrincipal {
+  display: flex;
+  height: 100vh;
+}
+
+.container {
+  width: 50%;
+}
+
+.centralizar {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.principal {
+    padding: 8rem;
+}
+
+.principalLogo {
+  font-size: 6rem;
+}
+
+.principalTitulo {
+  font-size: 3rem;
+}
+
+.principalDescricao {
+  margin: 3rem 0;
+}
+
+.botao{
+    font-size: 1.6rem;
+    font-weight: 700;
+    width: 100%;
+    height: 6rem;
+    cursor: pointer;
+    border-radius: 0.5rem;
+}
+
+.botoes{
+    display: flex;
+    justify-content: space-between;
+    gap: 4rem;
 }
